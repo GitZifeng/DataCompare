@@ -387,7 +387,7 @@ namespace DataCmp.Helper
             {
                 base._workBook = new HSSFWorkbook();
                 return base.GetStream(table);
-                return base.GetStream(table);
+                //return base.GetStream(table);
             }
 
             public override DataTable GetData(Stream stream)

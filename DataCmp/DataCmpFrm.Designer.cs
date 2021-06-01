@@ -110,6 +110,8 @@
             this.textLeft.Size = new System.Drawing.Size(374, 196);
             this.textLeft.TabIndex = 0;
             this.textLeft.Text = "示例数据:\r\n123456\r\n123456789\r\n987156456\r\n489687891251\r\n45789787\r\n";
+            this.textLeft.TextChanged += new System.EventHandler(this.textLeft_TextChanged);
+            this.textLeft.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.textLeft_MouseDoubleClick);
             // 
             // textRight
             // 
@@ -125,6 +127,7 @@
             this.textRight.Size = new System.Drawing.Size(374, 196);
             this.textRight.TabIndex = 1;
             this.textRight.Text = "示例数据:\r\n123456\r\n12345678\r\n987156456\r\n48968789125\r\n45789787";
+            this.textRight.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.textRight_MouseDoubleClick);
             // 
             // textLeftResult
             // 

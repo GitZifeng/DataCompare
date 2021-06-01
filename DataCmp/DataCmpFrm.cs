@@ -205,5 +205,20 @@ namespace DataCmp
             if (dialog.ShowDialog() == DialogResult.OK)
                 textFileRight.Text = dialog.FileName;
         }
+
+        private void textLeft_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textLeft_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.textLeft.SelectAll();
+        }
+
+        private void textRight_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.textRight.SelectAll();
+        }
     }
 }
